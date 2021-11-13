@@ -151,8 +151,8 @@ theme = "LoveIt-0.2.10"
 
   # Social config about the author
   [params.social]
-    GitHub = "xxxx"
-    Linkedin = ""
+    GitHub = "https://github.com/rafa-ribeiro"
+    Linkedin = "https://www.linkedin.com/in/rafaelribeir0/"
     Twitter = ""
     Instagram = "xxxx"
     Facebook = "xxxx"
