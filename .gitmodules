@@ -1,0 +1,3 @@
+[submodule "rafaelribeiro.dev_content"]
+	path = rafaelribeiro.dev_content
+	url = git@github.com:rafa-ribeiro/rafaelribeiro.dev_content.git
