@@ -213,7 +213,7 @@ theme = "LoveIt-0.2.10"
     XMPP = ""
     Matrix = ""
     Bilibili = ""
-    Email = "xxxx@xxxx.com"
+    Email = "me@rafaelribeiro.dev"
     RSS = false # 
 
   #  Page config
