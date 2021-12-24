@@ -30,7 +30,8 @@ copy_files_to_submodule() {
 
 commit_and_push_to_submodule() {
 	git add .
-	commit "New Blog Release on $date"
+	release_date=$(date)
+	commit "New Blog Release on $release_date"
 	git push origin HEAD:main
 }
 
