@@ -11,7 +11,7 @@ commit() {
 }
 
 push() {
-	$(echo "git push")
+	git push
 }
 
 go_to() {
@@ -24,17 +24,17 @@ pull_submodule() {
 }
 
 copy_files_to_submodule() {
-	$(echo "cp -r ../public/* .")
+	cp -r ../public/* .
 }
 
 commit_and_push_to_submodule() {
-	$(echo "git add .")
+	git add .
 	commit "New Blog Release on $date"
-	$(echo "git push origin HEAD:main")
+	git push origin HEAD:main
 }
 
 update_submodule() {
-	$(echo "git add rafaelribeiro.dev_content")
+	git add rafaelribeiro.dev_content
 	commit "Update submodule"
 	push
 }
