@@ -7,6 +7,7 @@ build_project() {
 
 commit() {
 	message=$1
+	git add .
 	git commit -m "$message"
 }
 
