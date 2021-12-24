@@ -1,13 +1,13 @@
-#!/bin/bash
+#!/bin/bash -e
 
 
 build_project() {
-	$(echo "hugo")
+	hugo
 }
 
 commit() {
 	message=$1
-	$(echo git commit -m "$message")
+	git commit -m "$message"
 }
 
 push() {
@@ -20,7 +20,7 @@ go_to() {
 }
 
 pull_submodule() {
-	$(echo "git pull git@github.com:rafa-ribeiro/rafaelribeiro.dev_content.git main")
+	git pull git@github.com:rafa-ribeiro/rafaelribeiro.dev_content.git main
 }
 
 copy_files_to_submodule() {
