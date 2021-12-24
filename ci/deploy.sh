@@ -41,6 +41,13 @@ update_submodule() {
 }
 
 
+print_message() {
+	message=$1
+	GREEN='\033[0;32m'
+	NC='\033[0m' # No Color
+	printf "${GREEN}$message${NC}\n"
+}
+
 deploy() {
 	build_project
 	commit "Update public dir with blog static files"
@@ -54,6 +61,8 @@ deploy() {
 
 	go_to ".."
 	update_submodule
+
+	print_message "Deploy finished with Success!"
 }
 
 # ========================== M A I N ==========================
