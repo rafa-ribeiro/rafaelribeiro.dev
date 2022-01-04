@@ -1,0 +1,46 @@
+Passos para o deploy:
+
+1. No repositório principal do blog, fazer a alteração necessária:
+
+2. Executar o comando para buildar o projeto e gerar os arquivos para deploy: -> OK
+
+ hugo
+
+
+3. Commit e push da alteração -> OK
+
+
+4. Atualizar o repo do submodule para evitar conflitos:
+
+git pull git@github.com:rafa-ribeiro/rafaelribeiro.dev_content.git main
+
+
+5. No passo 3 será gerado o diretório public, esse diretório deve ser copiado para o repositório do conteúdo que será jogado na hostinger, usar o comando abaixo:
+
+
+ cp -r public/* ../rafaelribeiro.dev_content/
+
+
+ OU se estiver no dir do submodule:
+
+
+ cp -r ../public/* .
+
+
+6. Entrar no repo do submodule e rodar:
+
+git add .
+
+git commit -m "New blog release"
+
+git push origin HEAD:main
+
+
+7. Voltar para o repo principal e atualizar o submodule com os comandos:
+
+git add . ou git add path-to-submodule
+
+
+git commit -m "Update submodule"
+
+git push  

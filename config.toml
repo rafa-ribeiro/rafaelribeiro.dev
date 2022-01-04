@@ -151,11 +151,11 @@ theme = "LoveIt-0.2.10"
 
   # Social config about the author
   [params.social]
-    GitHub = "https://github.com/rafa-ribeiro"
-    Linkedin = "https://www.linkedin.com/in/rafaelribeir0/"
+    GitHub = "rafa-ribeiro"
+    Linkedin = "rafaelribeir0"
     Twitter = ""
-    Instagram = "xxxx"
-    Facebook = "xxxx"
+    Instagram = ""
+    Facebook = ""
     Telegram = ""
     Medium = ""
     Gitlab = ""
@@ -567,3 +567,14 @@ theme = "LoveIt-0.2.10"
     url = "/categories/"
     title = ""
     weight = 3
+  [[menu.main]]
+    identifier = "about_me"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "About Me"
+    url = "/about/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 4
