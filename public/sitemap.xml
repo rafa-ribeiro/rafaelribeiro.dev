@@ -2,9 +2,10 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://rafaelribeiro.dev/tags/blog/</loc><lastmod>2021-10-30T02:12:22-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://rafaelribeiro.dev/tags/blog/</loc><lastmod>2022-01-04T14:50:44-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rafaelribeiro.dev/</loc><lastmod>2022-01-04T14:50:44-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rafaelribeiro.dev/about/</loc><lastmod>2022-01-04T14:50:44-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rafaelribeiro.dev/tags/</loc><lastmod>2022-01-04T14:50:44-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://rafaelribeiro.dev/hello_world/</loc><lastmod>2021-10-30T02:12:22-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://rafaelribeiro.dev/posts/</loc><lastmod>2021-10-30T02:12:22-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://rafaelribeiro.dev/</loc><lastmod>2021-10-30T02:12:22-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://rafaelribeiro.dev/tags/</loc><lastmod>2021-10-30T02:12:22-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://rafaelribeiro.dev/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
