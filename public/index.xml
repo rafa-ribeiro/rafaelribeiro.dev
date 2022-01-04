@@ -2,15 +2,8 @@
     <channel>
         <title>rafaelribeiro.dev</title>
         <link>https://rafaelribeiro.dev/</link>
-        <description>Esse é meu blog feito com o HUGO</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 04 Jan 2022 14:50:44 -0300</lastBuildDate>
+        <description>About LoveIt Theme</description>
+        <generator>Hugo -- gohugo.io</generator><language>pt</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 04 Jan 2022 14:50:44 -0300</lastBuildDate>
             <atom:link href="https://rafaelribeiro.dev/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>Hello World</title>
-    <link>https://rafaelribeiro.dev/hello_world/</link>
-    <pubDate>Sat, 30 Oct 2021 02:12:22 -0300</pubDate>
-    <author>Author</author>
-    <guid>https://rafaelribeiro.dev/hello_world/</guid>
-    <description><![CDATA[Post piloto Olá, pessoal!!!]]></description>
-</item></channel>
+        </channel>
 </rss>
