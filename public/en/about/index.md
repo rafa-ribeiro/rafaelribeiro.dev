@@ -7,7 +7,7 @@
 
 <br/>
 
-I hope everyone will be ok, my name is Rafael, and here I'm like an attempt to make 
+I hope everyone is staying safe and doing well, my name is Rafael, and here I'm like an attempt to make 
 and (which I consider more difficult) to maintain a personal blog. In 2022 I will complete 10 years as a 
 software developer, so my idea is to use this space to share some stuff that I had an opportunity to learn in this 
 period, studying a lot and working with incredible people.
