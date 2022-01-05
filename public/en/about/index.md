@@ -20,7 +20,7 @@ appear more frequently here, but I like so many others topics like algorithms, p
 learn new technologies and I intend to write about these topics here as well
 <br/><br/>
 
-Now I'm working with an incredible team at [Viva Decora](https://github.com/vivadecora) as a backend tech lead. Further, I love music, from any style and
+Now I'm working with an amazing team at [Viva Decora](https://github.com/vivadecora) as a backend tech lead. Further, I love music, from any style and
 I try to play acoustic guitar at some parties with my friends, I love to play soccer, I'm a supporter of the best soccer
 team in Brazil a.k.a São Paulo Futebol Clube (🙃🤡) and I love to play chess as well, although I'm not a good one.
 <br/><br/>
