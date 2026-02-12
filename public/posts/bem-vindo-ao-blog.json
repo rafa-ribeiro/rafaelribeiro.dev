@@ -1,0 +1,8 @@
+{
+  "title": "Bem-vindo ao meu blog",
+  "description": "Este é o primeiro post do meu blog pessoal sobre desenvolvimento",
+  "date": "2026-02-11",
+  "slug": "bem-vindo-ao-blog",
+  "content": "<h1>Bem-vindo ao meu blog</h1>\n<p>Este é o primeiro post! Aqui vou compartilhar conhecimento sobre <strong>frontend</strong>, <strong>backend</strong> e desenvolvimento em geral.</p>\n<h2>Por que criei este blog?</h2>\n<p>Para documentar meu aprendizado e ajudar outras pessoas na mesma jornada.</p>\n<h2>O que esperar?</h2>\n<ul>\n<li>Artigos sobre React, TypeScript, Node.js</li>\n<li>Dicas de arquitetura e boas práticas</li>\n<li>Reflexões sobre desenvolvimento</li>\n</ul>\n",
+  "id": "bem-vindo-ao-blog"
+}
