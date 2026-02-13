@@ -20,7 +20,9 @@ export default function Home() {
         <Layout>
             <Seo
                 title="Home — Rafael Ribeiro"
-                description="Blog pessoal sobre desenvolvimento de software e computação"
+                description="Blog pessoal sobre desenvolvimento de software e computação. 
+                Aqui quero compartilhar meus aprendizados e os principais temas que venho estudando 
+                com foco principal em desenvolvimento backend e arquitetura de software"
             />
 
             <main>
@@ -29,8 +31,8 @@ export default function Home() {
                 </h1>
 
                 <p className="text-lg mb-8 opacity-80">
-                    Aqui compartilho coisas do meu interesse e quem sabe,
-                    possa ser do seu também.
+                    Fala, pessoal! Bem-vindo ao blog, espero conseguir compartilhar aqui um pouco das coisas que venho estudando e interesses no geral, 
+                    com foco principal em desenvolvimento backend, arquitetura de software e o que mais for aprendendo pelo caminho.
                 </p>
 
                 <div className="mt-12">
