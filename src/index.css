@@ -1,1 +1,41 @@
 @import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+
+  /* =========================
+     LIGHT MODE (default)
+  ========================= */
+
+  --color-bg: #e2e8f0;
+  --color-text: #0f172a;
+  --color-border: #cbd5e1;
+  --color-hover: #d6dee8;
+
+  /* --color-light-bg: #e2e8f0; */
+  /* --color-light-text: #0f172a; */
+  /* --color-light-border: #cbd5e1; */
+  /* --color-light-hover: #d6dee8; */
+
+  /* --color-dark-bg: #0f1412;
+  --color-dark-text: #d7f9e9;
+  --color-dark-border: #1b2420;
+  --color-dark-hover: #16201c; */
+
+  /* Accent default = LIGHT */
+  --color-accent: #7c3aed;
+  --color-accent-hover: #a78bfa;
+}
+
+/* Sobrescrevendo via variante dark real do Tailwind */
+
+@variant dark {
+  --color-accent: #34d399;
+  --color-accent-hover: #6ee7b7;
+
+  --color-bg: #0f1412;
+  --color-text: #d7f9e9;
+  --color-border: #1b2420;
+  --color-hover: #16201c;
+}
