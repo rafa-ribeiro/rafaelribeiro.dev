@@ -14,10 +14,12 @@ export default function Layout({ children }: LayoutProps) {
         bg-bg
         text-text
         transition-colors duration-300
-        bg-[radial-gradient(circle_at_top,rgba(124,58,237,0.05),transparent_60%)]
-        dark:bg-[radial-gradient(circle_at_top,rgba(52,211,153,0.06),transparent_60%)]
+        bg-[radial-gradient(900px_600px_at_-200px_0px,rgba(124,58,237,0.05),transparent_70%)]
+        dark:bg-[radial-gradient(1000px_700px_at_-250px_0px,rgba(52,211,153,0.10),transparent_75%)]
       "
     >
+
+
       <Header />
 
       <main
