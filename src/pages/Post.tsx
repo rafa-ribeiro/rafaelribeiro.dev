@@ -40,7 +40,7 @@ export default function PostPage() {
       <Seo title={post.title} description={post.description} />
 
       <article className="max-w-3xl mx-auto">
-        <h1 className="text-4xl font-bold mb-4">
+        <h1 className="text-4xl font-bold leading-tight mb-6">
           {post.title}
         </h1>
 
@@ -51,35 +51,52 @@ export default function PostPage() {
         <div
           className="
             space-y-6
-            leading-relaxed
+            text-base
+            leading-7
+            tracking-[0.01em]
 
-            [&_h2]:text-2xl
+            [&_h2]:text-3xl
             [&_h2]:font-semibold
-            [&_h2]:mt-10
-            [&_h2]:mb-4
+            [&_h2]:mt-14
+            [&_h2]:mb-6
+            [&_h2]:tracking-tight
+            [&_h2]:text-accent/90
+            dark:[&_h2]:text-accent/80
+            [&_h2]:pb-2
+            [&_h2]:border-b
+            [&_h2]:border-border/40
 
-            [&_h3]:text-xl
+            [&_h3]:text-2xl
             [&_h3]:font-semibold
-            [&_h3]:mt-8
-            [&_h3]:mb-3
+            [&_h3]:mt-10
+            [&_h3]:mb-4
             
             [&_p]:opacity-90
             
+            [&_a]:text-accent
+            [&_a]:underline-offset-4
+            [&_a]:hover:underline
+            
             [&_ul]:list-disc
             [&_ul]:pl-6
+            [&_ul]:space-y-2
             [&_li]:mb-2
             
+            [&_code]:font-mono
+            [&_code]:text-sm
             [&_code]:bg-hover
             [&_code]:text-accent
-            [&_code]:px-1
+            [&_code]:px-1.5
             [&_code]:py-0.5
             [&_code]:rounded
 
+            [&_pre]:font-mono
+            [&_pre]:text-sm
             [&_pre]:bg-hover
             [&_pre]:border
             [&_pre]:border-border
-            [&_pre]:p-4
-            [&_pre]:rounded-lg
+            [&_pre]:p-5
+            [&_pre]:rounded-xl
             [&_pre]:overflow-x-auto
           "
           dangerouslySetInnerHTML={{ __html: post.content }}
